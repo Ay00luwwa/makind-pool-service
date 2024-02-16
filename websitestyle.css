@@ -30,7 +30,7 @@ h2 {
   background-size: cover;
   background-position: fixed;
   background-repeat: no-repeat;
-  filter: blur(7px);
+  filter: blur(4px);
   z-index: -1;
 }
 
@@ -171,7 +171,7 @@ nav .fa {
 /*-------course------*/
 
 .course {
-  width: 80%;
+  width: 90%;
   margin: auto;
   text-align: center;
   padding: 20px;
@@ -179,6 +179,18 @@ nav .fa {
 h1 {
   font-size: 36px;
   font-weight: 600;
+}
+
+.course-col {
+  position: relative;
+  flex-basis: 31%;
+  background: #008080;
+  color: #ffffff;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
 }
 
 .underline {
@@ -217,17 +229,6 @@ p {
   height: 80%;
 }
 
-.course-col {
-  position: relative;
-  flex-basis: 31%;
-  background: #008080;
-  color: #ffffff;
-  border-radius: 10px;
-  margin-bottom: 5%;
-  padding: 20px 12px;
-  box-sizing: border-box;
-  transition: 0.5s;
-}
 h3 {
   text-align: center;
   font-weight: 800;
